@@ -110,10 +110,10 @@ def main(args):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
 
-    parser.add_argument('--emb_path', type=str, default='./data/amazon/emb_%d.txt')
-    parser.add_argument('--file_path', type=str, default='./data/amazon/amazon.txt')
-    parser.add_argument('--node_feature_path', type=str, default='./data/amazon/feature.txt')
-    parser.add_argument('--model', type=str, default='./res/amazon/model.pkl')
+    parser.add_argument('--emb_path', type=str, default='./data/bitotc/emb_%d.txt')
+    parser.add_argument('--file_path', type=str, default='./data/bitotc/bitotc.txt')
+    parser.add_argument('--node_feature_path', type=str, default='./data/bitotc/feature.txt')
+    parser.add_argument('--model', type=str, default='./res/bitotc/model.pkl')
     parser.add_argument('--feat_dim', type=int, default=128)
     parser.add_argument('--neg_size', type=int, default=1)
     parser.add_argument('--hist_len', type=int, default=15)
