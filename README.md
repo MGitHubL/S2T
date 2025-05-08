@@ -4,4 +4,4 @@ S2T is a method from paper "Self-Supervised Temporal Graph Learning with Tempora
 
 We have uploaded the runnable code version, which will be further improved after the acceptance of the paper.
 
-Our code is improved based on TREND, which can be referenced: https://github.com/WenZhihao666/TREND
+Our code is improved based on TREND. The source code and data can be referenced: https://github.com/WenZhihao666/TREND
